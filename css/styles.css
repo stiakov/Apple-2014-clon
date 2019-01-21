@@ -62,59 +62,54 @@ html body {
   background: burlywood;
   display: relative;
   /* top: -10px; */
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
-    background-size: 1440px 1315px;
+  background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: 1440px 1315px;
 }
 
-.body-image-main{
-padding-top: 90px;
-/* padding: 50px 0 50px 0; */
+.body-image-main {
+  padding-top: 90px;
 }
 
-.header-text{
+.header-text {
   width: 100%;
   height: 235px;
   padding: 50px 0 50px 0;
-  /* margin-top: -170px; */
-  border: 1px solid orange; 
   display: flex;
   align-items: center;
   flex-flow: column nowrap;
+  margin-top: 20px;
 }
-#verse{
-  background: url(https://web.archive.org/web/20140301004331im_/http://images.apple.com/home/images/your_verse_title_medium.png);
-  margin: 0 auto 0 auto;
-  /* width: 980px;
-  height: 134px; */
-  width: 980px;
-  height: 104px;
-  /* background-size: contain; */
-}
-#share{
-  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_medium.png);
-  /* margin: 0 auto 0 auto; */
-  /* width: 980px;
-  height: 66px; */
-  width: 980px;
-  height: 82px;
-  padding-bottom: 27px;
-  /* background-size: cover; */
 
-}
-#video{
-  background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
-  /* background-size: 980px 112px; */
-  overflow: hidden;
-  /* margin: 0 auto 0 auto; */
-  /* width: 980px;
-  height: 34px; */
+#verse {
+  background: url(../img/your_verse_title_small.png);
+  margin: -13px auto 0 auto;
   width: 980px;
-  height: 64px;
+  height: 100px;
+}
+
+#share {
+  background: url(../img/your_verse_subhead_medium.png);
+  width: 980px;
+  height: 86px;
+  margin-bottom: 27px;
+}
+
+#video {
+  background: url(../img/cta_your_verse_27pt.png);
+  overflow: hidden;
+  width: 980px;
+  height: 32px;
   display: flex;
   flex-direction: column;
-  /* background-size: contain; */
-
 }
+
+/* #video:hover{
+  background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
+  height: 32px;
+  width: auto;
+  top:32px;
+  overflow: hidden;
+} */
 
 #bottom-section {
   width: 100%;
