@@ -140,14 +140,6 @@ html body {
   flex-direction: column;
 }
 
-/* #video:hover{
-  background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
-  height: 32px;
-  width: auto;
-  top:32px;
-  overflow: hidden;
-} */
-
 #bottom-section {
   width: 100%;
   height: 200px;
@@ -170,29 +162,25 @@ html body {
 
 /* ======= SECTION BOTTOM LINKS */
 
-#bottom-section >
-div:nth-child(1) {
+#bottom-section>div:nth-child(1) {
   background: url(../img/iPhone5s.jpg);
   background-size: 364px 200px;
   margin: 2px 1px 1px 0;
 }
 
-#bottom-section >
-div:nth-child(2) {
+#bottom-section>div:nth-child(2) {
   background: url(../img/iPhone5c.jpg);
   background-size: 364px 200px;
   margin: 2px 1px 1px 1px;
 }
 
-#bottom-section >
-div:nth-child(3) {
+#bottom-section>div:nth-child(3) {
   background: url(../img/mac30.jpg);
   background-size: 364px 200px;
   margin: 2px 1px 1px 1px;
 }
 
-#bottom-section >
-div:nth-child(4) {
+#bottom-section>div:nth-child(4) {
   background: url(../img/supplier.jpeg);
   background-size: 364px 200px;
   margin: 2px 0 1px 1px;
@@ -203,15 +191,13 @@ div:nth-child(4) {
 #footer-links {
   width: 50%;
   height: 90px;
-  /* background: rgb(223, 195, 248); */
   display: flex;
   flex-flow: row nowrap;
-  padding-top: 18px;
+  padding-top: 15px;
   float: right;
-
 }
 
-#footer-links ul{
+#footer-links ul {
   padding: 0;
   margin: 0;
   width: auto;
@@ -220,14 +206,13 @@ div:nth-child(4) {
   flex-direction: row;
 }
 
-#footer-links .lista{
-  /* display: inline-block; */
+#footer-links .lista {
   display: flex;
   flex-flow: row wrap;
   list-style-type: none;
   color: #0088CC;
   font-size: 0.8em;
-  border-right: 1px solid #C5C5;
+  border-right: 1px solid #C5C5C5;
   width: auto;
   height: 12px;
   padding: 0 6px 0 6px;
@@ -235,72 +220,83 @@ div:nth-child(4) {
   align-items: center;
 }
 
-#footer-links ul li:hover{
+#footer-links ul li:hover {
   text-decoration: underline;
 }
 
-#uno{
+#uno {
   border-left: none;
   padding-left: 0 !important;
 }
 
-#footer-links ul li:last-child{
+#footer-links ul li:last-child {
   border-right: none;
 }
-#disclaimers{
+
+#disclaimers {
   display: flex;
   flex-flow: row nowrap;
-  padding-top:15px;
+  padding-top: 15px;
   margin-left: -6px;
 }
 
-.shop{
-  color: black;
-  font-size: 0.8em;  
-  padding-top:15px;
+.shop {
+  color: rgb(110, 110, 110);
+  font-size: 0.8em;
+  padding-top: 15px;
   float: left;
   padding-right: 50px;
 }
-.shop a{
+
+.shop a {
   color: #0088CC;
   text-decoration: none;
-
 }
-.shop a:hover{
+
+.shop a:hover {
   text-decoration: underline;
 }
-.shop ul{
+
+.shop ul {
   padding: 0;
   margin: 0;
 }
+
 .shop li {
   list-style-type: none;
 }
- 
-#disclaimers ul li:first-child{
-  border-right: 1px solid #C5C5;
+
+#copyright {
+  margin-left: 6px;
+}
+
+#disclaimers ul li:first-child {
+  border-right: 1px solid #C5C5C5;
   padding: 0 6px 0 6px;
 }
 
-#disclaimers > ul li {
+#disclaimers ul li:last-child {
+  margin-left: 6px;
+}
+
+#disclaimers>ul li {
   float: left;
   margin-top: -3px;
 }
-#disclaimers > ul li:last-child{
-  border:none;
-  padding: 0 6px 0 6px;
-}
-#terms > span {
-  padding-top: 15px;
-}
-#terms ul li{
+
+#terms ul {
   display: flex;
   flex-flow: row nowrap;
+  line-height: 20px;
 }
 
-#fondo{
+#terms li {
+  line-height: 13px;
+}
+
+#fondo {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  padding-top:15px;
+  padding-top: 15px;
 }
