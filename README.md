@@ -4,6 +4,8 @@
 
 <p>In this project we cloned the website of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient to mimic.</p>
 
+<p>You can look at the original site <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/">here</a>.</p>
+
 
 ## Team
 
